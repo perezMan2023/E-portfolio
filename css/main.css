@@ -1,0 +1,70 @@
+:root {
+  --color-blue-medium: #c7a652;
+  --color-purple: #632ce7;
+  --color-gray: #c45a5a;
+  --color-gray-medium: #a5bed6;
+  --color-yellow: #fac32c;
+}
+/*-------ESTILOS GENERALES-----------*/
+a {
+  color:#c45a5a;
+}
+h4{
+  display: flex;
+  background: #e9ed6d5d;
+  border-radius: 25px;
+  font-family:'Times New Roman', Times, serif;
+  justify-content: center; 
+}
+
+/*------SECTION-------*/
+/*------NAV-----------*/
+.navbar-brand > img {
+  width: 75px;
+}
+
+.container > .row{
+margin-bottom: 6rem;
+}
+
+.navbar-main .active{
+  text-decoration: underline wavy var(--color-purple);
+  text-underline-offset: 9px;
+}
+.header-min{
+ min-height: 100vh;
+}
+.icon-service{
+  --box-size: 70px;
+  width: var(--box-size);
+  height: var(--box-size);
+  padding: 10px;
+}
+.portfolio-item > img{
+  transItion: 0.4s transform;
+}
+.portfolio-item:hover > img{
+  transform: scale(0.96);
+}
+
+/*-------CLIENTE----------*/
+.bg-purple{
+background-color: rgba(131.87.235 / 0.3);
+filter: opacity(0.95);
+}
+.icons-social-networks > a :hover,
+.sec-clients > a:hover{
+  filter: opacity(.5)
+}
+
+@media screen and (max-width: 376px){
+  .body{
+    margin-top: 4rem;
+  }
+  .header-main {
+    height: initial;
+  }
+  .photo-frame{
+    font-size: 11px;
+  }
+}
