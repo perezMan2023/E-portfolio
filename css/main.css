@@ -7,8 +7,9 @@
 }
 /*-------ESTILOS GENERALES-----------*/
 a {
-  color:#c45a5a;
+  color:#bc0303;
 }
+
 h4{
   display: flex;
   background: #e9ed6d5d;
@@ -67,4 +68,5 @@ filter: opacity(0.95);
   .photo-frame{
     font-size: 11px;
   }
+  
 }
