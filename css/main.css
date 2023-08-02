@@ -1,3 +1,5 @@
+
+
 :root {
   --color-blue-medium: #c7a652;
   --color-purple: #632ce7;
@@ -5,27 +7,25 @@
   --color-gray-medium: #a5bed6;
   --color-yellow: #fac32c;
 }
+
 /*-------ESTILOS GENERALES-----------*/
-a {
-  color:#bc0303;
-}
 
 h4{
   display: flex;
   background: #e9ed6d5d;
   border-radius: 25px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Roboto', sans-serif;
   justify-content: center; 
 }
 
 /*------SECTION-------*/
 /*------NAV-----------*/
 .navbar-brand > img {
-  width: 75px;
+  width: 95px;
 }
 
 .container > .row{
-margin-bottom: 6rem;
+margin-bottom: 4rem;
 }
 
 .navbar-main .active{
@@ -42,7 +42,7 @@ margin-bottom: 6rem;
   padding: 10px;
 }
 .portfolio-item > img{
-  transItion: 0.4s transform;
+  transition: 0.4s transform;
 }
 .portfolio-item:hover > img{
   transform: scale(0.96);
