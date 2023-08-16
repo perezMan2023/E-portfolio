@@ -28,14 +28,15 @@ h3{
 
 .container > .row{
 margin-bottom: 2rem;
-background-color: #e6cdeffc;
+background-color: #907f9693;
 border-radius: 20px;
-
+padding:10px 10px 10px -50px;
 }
+
 .container img{
 border-radius: 20em;
-  
 }
+
 .navbar-main .active{
   text-decoration: underline wavy var(--color-purple);
   text-underline-offset: 9px;
@@ -82,7 +83,7 @@ filter: opacity(0.95);
   margin:0 0 0 30px;
 }
 
-
+/*-----media query-----------*/
 @media screen and (max-width: 376px){
   .body{
     margin-top: 4rem;
@@ -92,6 +93,9 @@ filter: opacity(0.95);
   }
   .photo-frame{
     font-size: 11px;
+  }
+  .navbar{
+    display: none;
   }
 }
 footer{
