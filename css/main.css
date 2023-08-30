@@ -12,7 +12,7 @@
 
 h3{
   display: flex;
-  background:rgb(194, 233, 241)  ;
+  background:rgb(174, 211, 218)  ;
   border-radius: 35px;
   font-family:Arial, Helvetica, sans-serif;
   justify-content: center; 
@@ -73,7 +73,7 @@ filter: opacity(0.95);
 }
 .icons-social-networks > a :hover,
 .sec-clients > a:hover{
-  filter: opacity(.5);
+  filter: opacity(.6);
 }
 .icons-social-networks{
   display:flex;
